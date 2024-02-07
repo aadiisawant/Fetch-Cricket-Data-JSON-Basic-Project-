@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Score</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .dt{
+            margin-bottom: 3px;
+        }
+        .card{
+            margin: 10px;
+            padding: 3px;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            width: 300px;
+        }
+        .team{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .tnai{
+            width: 60%;
+            display: flex;
+            align-items: center;
+        }
+        .ti{
+            height: 25px;
+            width: 25px;
+            margin-right: 2px;
+        }
+        .score{}
+        .status{
+            margin: 3px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <p class="dt"><small>28/10/2022 08:00 PM</small></p>
+        <div class="team">
+            <div class="tnai">
+                <img src="https://g.cricapi.com/img/teams/1-637877075587179422.webp" class="ti">
+                <span class="tn">Hobart Hurricanes Women [HB-W]</span>
+            </div>
+            <p class="score">230/4 (20)</p>
+        </div>
+        <div class="team">
+            <div class="tnai">
+                <img src="https://g.cricapi.com/img/teams/6-637877070670541994.webp" class="ti">
+                <span class="tn">Melbourne Renegades Women [MR-W]</span>
+            </div>
+            <p class="score">150/3 (14.5)</p>
+        </div>
+        <p class="status">80 Runs needed in 31 balls</p>
+    </div>
+
+    <div class="card">
+        <p class="dt"><small>28/10/2022 08:00 PM</small></p>
+        <div class="team">
+            <div class="tnai">
+                <img src="https://g.cricapi.com/img/teams/1-637877075587179422.webp" class="ti">
+                <span class="tn">Hobart </span>
+            </div>
+            <p class="score">230/4 (20)</p>
+        </div>
+        <div class="team">
+            <div class="tnai">
+                <img src="https://g.cricapi.com/img/teams/6-637877070670541994.webp" class="ti">
+                <span class="tn">Melbourne </span>
+            </div>
+            <p class="score">150/3 (14.5)</p>
+        </div>
+        <p class="status">80 Runs needed in 31 balls. 80 Runs needed in 31 balls</p>
+    </div>
+</body>
+</html>
